@@ -1,1 +1,1 @@
-print (Tuesday 20th September)
+print ("Tuesday 20th September")
