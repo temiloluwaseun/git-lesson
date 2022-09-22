@@ -1,1 +1,1 @@
-print ("Tuesday 20th September")
+box = input("What did you buy")
