@@ -43,5 +43,10 @@ list = [
 },]
 
 
+name = input('your party invite? ')
+
 for x in list:
-    print (x["age"])
+    if x['name'] == name.capitalize():
+        print(f'valid invite , Welcome {name.capitalize()} ')
+        break
+
