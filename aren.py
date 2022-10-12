@@ -14,11 +14,16 @@ print(fan.color)
 
 
 class Car:
-    def __init__(self, colour, tyres):
+    def __init__(self, colour, tyres, model, convertible):
         self.colour = colour
         self.tyres= tyres
+        self.model = model
+        self.convertible = convertible
 
-x = Car("blue",8)
+    def __str__(self):
+        return f"This is a {self.colour} {self.model} car with {self.tyres} tyres and it is {self.convertible}"
 
+x = Car("blue",4,"Toyota Hilux","convertible")
 
-print(f"{x.colour}  {x.tyres}")
+print(x)
+print(f"{x.colour}  {x.tyres}  {x.model}  {x.convertible} ")
