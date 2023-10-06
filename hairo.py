@@ -7,8 +7,8 @@ def add():
 def divide():
     return number1/number2
 
-def multiply(num1,num2):
-    return num1*num2
+def multiply(num1, num2):
+    return num1 * num2
 
 print(add())
 print(divide())
@@ -16,4 +16,4 @@ print(divide())
 x= add()
 y= divide()
 
-print(multiply(x,y))
+print(multiply(x, y))

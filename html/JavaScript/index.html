@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First JS</title>
+  </head>
+  <body>
+    <!-- 3 ways JavaScript Can be written 
+    -Inline 
+    -Embedded or Internal
+    -External -->
+
+    <h2>JavaScript Can Change HTML element</h2>
+    <p id="change">The text will change soon</p>
+    <button onclick="document.getElementById('change').innerHTML='I Love JS'">
+      Click ME
+    </button>
+
+    <h2>JavaScript can change HTML attributes</h2>
+    <img
+      src="./images/FaceBook Logo.jpg"
+      alt="facebook Logo"
+      id="logo"
+      onclick="document.getElementById('logo').src = './images/Instagram Logo.png'"
+    />
+
+    <h2>JavaScript can change HTML attribute (Example 2)</h2>
+    <img src="./images/FaceBook Logo.jpg" alt="" id="logo2" onmouseover="document.getElementById('logo2').src='./images/Instagram Logo.png'" onmouseout="document.getElementById('logo2').src='./images/FaceBook Logo.jpg'"/>
+
+    <h2>Javascript can change the style of an element</h2>
+    <p id="style">Javascript will change the style of this text</p>
+    <button ondblclick="document.getElementById('style').style.fontSize='30px'">Double Click to change size</button>
+    <button ondblclick="document.getElementById('style').style.color = 'blue'">Double click to change color</button>
+
+    <p id="style2">Javascript can hide or show this text</p>
+    <button onclick="document.getElementById('style2').style.opacity = '0'">Hide</button>
+    <button onclick="document.getElementById('style2').style.opacity = '1'">Show</button>
+  </body>
+</html>

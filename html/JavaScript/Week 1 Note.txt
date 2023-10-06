@@ -1,0 +1,20 @@
+JAVASCRIPT
+Javascript often abbreviated as JS is a programming language, meaning that you can write very detailed instructions and algorithms in it. It was invented by Brendan Eich and made its first apperance in 1995. Javascript is one of the core technologies of the World Wide Web alongside HTML and CSS. 98% of websites use Javascript on the client side for webpage behaviour and often incorporate third-party libraries. 
+
+Javascript is used to:-
+--- Program web pages.
+--- Add functionality to web pages.
+
+Javascript is usually embedded in html pages and it is case sensitive.
+
+Javascript can display data in majorly 4 different ways
+  1. Inside an HTML element using .innerHTML
+  2. Inside an HTML page using document.write();
+  3. Inside a pop-up window such as alert(); or prompt();
+  4. Inside the browser's console using console.log();
+
+To add or embed javascript program into a webpage place it inside a script tag - <script></script>. The script tag can be placed either in the head section or body section of your html page however, it is much better to embed javascript code at the buttom of your webpage (at the end of the body tag).
+
+Note, Javascript can also be written in a separate file and linked to an html page as a form of External Javascript.
+
+

@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./Images/love.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+div {
+    background-color: whitesmoke;
+    width: 50%;
+    padding: 3rem 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(165, 19, 19);
+}
+
+#name {
+    display: block;
+    width: 80%;
+    margin: 0 auto 1rem auto;
+    padding: 0.5rem 0.5rem;
+}
+
+#name:focus {
+    outline: none;
+}
+
+#partner {
+    display: block;
+    width: 80%;
+    margin: 0 auto 1rem auto;
+    padding: 0.5rem 0.5rem;
+}
+
+#partner:focus {
+    outline: none;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(165, 19, 19);
+    color: #fff;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem 0.5rem;
+    letter-spacing: 0.2rem;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: transparent;
+    color: #000;
+}
+
+#message {
+    text-align: center;
+}
+
+#percentage {
+    color: rgb(165, 19, 19);
+    letter-spacing: 0.2rem;
+    text-align: center;
+    margin-top: -0.5rem;
+}

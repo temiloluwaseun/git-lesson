@@ -1,5 +1,7 @@
 anime = input("Favourite name character")
 
+
+
 def a(name):
     return name.replace("a"," ")
 
