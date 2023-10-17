@@ -31,8 +31,8 @@ if al=="yes":
     current_time = time.strftime("%H:%M")
     if current_time == alt:
         print(aln)
-ework_time = "16:00:00"
-current_time = time.strftime("%H:%M:%S")
+ework_time = "12:23"
+current_time = time.strftime("%H:%M")
 if current_time==ework_time:
     wd=input("Are you done for the day? ")
     if wd=="no":
@@ -46,12 +46,12 @@ if current_time==ework_time:
             print(random.choice(mdgl))
         if md=="bad":
             mdb=input("What happened? (1=stress,2=emotional breakdown,3=sickness,4=other)")
-            if mdb==1:
+            if mdb=="1":
                 print("Try to get some rest")
-            if mdb==2:
-                mdbii=["you'll be fine","you'll get through it","you are thye best","you rock"]
+            if mdb=="2":
+                mdbii=["you'll be fine","you'll get through it","you are the best","you rock"]
                 print(random.choice(mdbii))
-            if mdb==3:
+            if mdb=="3":
                 mdbiii=input("Have you gone to the hospital? ")
                 if mdbiii=="yes":
                     print("follow the doctors advice and ensure you take care of yourself")
@@ -65,6 +65,6 @@ if current_time==ework_time:
                             print("ensure you take care of yourself")
                         else:
                             print("please get treatment")
-            if mdb==4:
+            if mdb=="4":
                 input("what happened? ")
                 print("sorry, you'll be fine")
