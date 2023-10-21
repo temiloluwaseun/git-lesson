@@ -31,7 +31,7 @@ if al=="yes":
     current_time = time.strftime("%H:%M")
     if current_time == alt:
         print(aln)
-ework_time = "12:23"
+ework_time = "16:00"
 current_time = time.strftime("%H:%M")
 if current_time==ework_time:
     wd=input("Are you done for the day? ")
