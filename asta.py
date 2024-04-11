@@ -45,19 +45,21 @@ if user==3:
     print(a/b)
 if user==4:
     print(a*b)
-
+'''
 
 print("                                          Currency Converter")
 n=int(input("input the amount of money in naira: "))
-curr=input("To convert to dollar press $, To convert to pounds press £:  ")
+curr=input("To convert to dollar press $")
 if curr=="$":
-    x=n/770.51
+    x=n/1000
     print("#",n," is equivalent to $ ",x)
-if curr=="£":
-    y=n/959.42
-    print("#",n," is equivalent to £ ",y)
+d=int(input("input the amount of money in dollar: "))
+curr=input("To convert to naira press #")
+if curr=="#":
+    y=1000*d
+    print("$",d," is equivalent to # ",y)
 
-
+'''
 import time 
 alarm=input("Enter the time you want to wake up: ")
 ctime=time.strftime("%H:%M")

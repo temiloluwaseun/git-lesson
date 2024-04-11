@@ -1,4 +1,4 @@
-'''
+
 user1=input("What is your name user 1: ")
 user2=input("What is your name user 2: ")
 score1=0
@@ -39,7 +39,7 @@ else:
 print(f"{user1} has {score1} points")
 print(f"{user2} has {score2} points")
 
-
+'''
 x=input("write a word: ")
 w=x[::-1]
 if x==w:
