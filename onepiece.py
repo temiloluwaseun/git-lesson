@@ -1,5 +1,25 @@
-anime=input("Favourite anime character")
+anime = input("Favourite name character")
 
-anime2=anime.replace("a"," ").replace("e","0").replace("i","1").replace("o","2").replace("u","3")
 
-print(anime2)
+
+def a(name):
+    return name.replace("a"," ")
+
+def e(name):
+    return name.replace("e","0")
+
+def i(name):
+    return name.replace("i","1")
+
+def o(name):
+    return name.replace("o","2")
+def u(name):
+    return name.replace("u","3")
+
+ola = a(anime)
+ola = e(ola)
+ola = i(ola)
+ola = o(ola)
+ola = u(ola)
+
+print(ola)

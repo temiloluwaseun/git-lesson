@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Variables</title>
+  </head>
+  <body>
+    <h2>Creating a variable in JavaScript is called "declaring" a variable.</h2>
+
+    <h3>
+      What are Variables? <br />
+      Variables are containers for storing data.
+    </h3>
+    <br />
+
+    <h3>
+      <p>3 Ways to Declare a JavaScript Variable:</p>
+      <ul>
+        <li>Using var</li>
+        <li>Using let</li>
+        <li>Using const</li>
+      </ul>
+    </h3>
+    <br />
+
+    <h3>
+      Some Facts
+      <ul>
+        <li>Always declare JavaScript variables with var, let or const.</li>
+        <li>
+          The var keyword is used in all JavaScript code from 1995 to 2015.
+        </li>
+        <li>The let and const keywords were added to JavaScript in 2015.</li>
+        <li>
+          If you want your code to run in older browsers, you must use var.
+        </li>
+        <li>A variable can be declared both globally and locally.</li>
+      </ul>
+    </h3>
+    <br />
+
+    <h3>
+      All JavaScript variables must be identified with unique names. These
+      unique names are called identifiers. Identifiers can be short names (like
+      x and y) or more descriptive names (age, sum, totalVolume). The general
+      rules for constructing names for variables (unique identifiers) are:
+      <ul>
+        <li>Name must be meaningful.</li>
+        <li>
+          Names can contain letters, digits, underscores, and dollar signs.
+        </li>
+        <li>Names must begin with a letter.</li>
+        <li>Names can also begin with $ and _.</li>
+        <li>Names are case sensitive (y and Y are different variables).</li>
+        <li>
+          Reserved words (like JavaScript keywords) cannot be used as names.
+        </li>
+      </ul>
+    </h3>
+
+    <script>
+      let x=5;
+      let y=6;
+      let z = x + y;
+      console.log(z);
+
+      const firstPrice = 300;
+      const secondPrice = 400;
+      const total = firstPrice + secondPrice;
+      console.log(total);
+    </script>
+  </body>
+</html>

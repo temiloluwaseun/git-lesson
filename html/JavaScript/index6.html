@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Truthy and Falsy Values</title>
+  </head>
+  <body>
+    <h3>
+      In JavaScript, a truthy value is a value that is considered true when
+      encountered in a Boolean context. All values are truthy unless they are
+      defined as falsy. That is, all values are truthy except:
+      <ul>
+        <li>false</li>
+        <li>-0</li>
+        <li>0</li>
+        <li>""</li>
+        <li>null (how a developer signalize emptiness)</li>
+        <li>undefined (how JavaScript signalizes emptiness)</li>
+        <li>NAN (Not a Number)</li>
+      </ul>
+    </h3>
+
+    <script>
+      console.log(Boolean(""));//false
+      console.log(Boolean(0));//false
+      console.log(Boolean("0"));//true
+      console.log(Boolean(100));//true
+      console.log(Boolean(null));//false
+      console.log(Boolean([0]));
+      console.log(Boolean(-0));
+      console.log(Boolean(false));
+    </script>
+  </body>
+</html>
